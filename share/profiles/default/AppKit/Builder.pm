@@ -1,4 +1,6 @@
-package {{ $name }}::Builder;
+{{
+    $name = $dist->name =~ s/-/::/gr; ''
+}}package {{ $name }}::Builder;
 
 use Moose;
 use File::ShareDir;
