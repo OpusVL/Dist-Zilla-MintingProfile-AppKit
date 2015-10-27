@@ -2,7 +2,7 @@ package Dist::Zilla::MintingProfile::AppKit;
 
 # ABSTRACT: Mints a new AppKit site
 
-our $VERSION='0.001';
+our $VERSION = '0.002';
 use Moose;
 with 'Dist::Zilla::Role::MintingProfile';
 use File::ShareDir;
